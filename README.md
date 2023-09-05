@@ -34,3 +34,6 @@ git push --set-upstream origin 'branch_to_push'
 - Delete the remote branch
 - Delete the local branch
 - Pull the new code on the remote master to your local machine.
+
+### Not getting the authentication working when I try to push changes...
+
