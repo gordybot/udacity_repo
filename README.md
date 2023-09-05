@@ -22,6 +22,9 @@ git checkout branch_to_change_to
 # Delete a branch (from not-on-that-branch)
 git branch -d branch_name_to_delete
 
+# Push a new branch to the remote repository.
+git push --set-upstream origin 'branch_to_push'
+
 #### Workflow
 -Create a new branch
 -Add new features and code
