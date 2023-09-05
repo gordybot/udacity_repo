@@ -21,3 +21,13 @@ git checkout branch_to_change_to
 
 # Delete a branch (from not-on-that-branch)
 git branch -d branch_name_to_delete
+
+#### Workflow
+-Create a new branch
+-Add new features and code
+- add, commit, push your changes to remote
+- Open a pull request
+- Have another team member review your changes and merge them in.
+- Delete the remote branch
+- Delete the local branch
+- Pull the new code on the remote master to your local machine.
