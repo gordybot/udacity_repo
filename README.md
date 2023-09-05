@@ -22,6 +22,9 @@ git checkout branch_to_change_to
 # Delete a branch (from not-on-that-branch)
 git branch -d branch_name_to_delete
 
+# Push a new branch to the remote repository.
+git push --set-upstream origin 'branch_to_push'
+
 #### Workflow
 -Create a new branch
 -Add new features and code
@@ -31,3 +34,6 @@ git branch -d branch_name_to_delete
 - Delete the remote branch
 - Delete the local branch
 - Pull the new code on the remote master to your local machine.
+
+### Not getting the authentication working when I try to push changes...
+
